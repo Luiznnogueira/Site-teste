@@ -1,0 +1,82 @@
+body{
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+
+}
+
+#header{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#ButtonCta{
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+#headerCta p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 32px;
+    color: #575455;
+}
+
+#headerCta h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 82px;
+    color: rgb(15, 14, 14);
+
+    
+}
